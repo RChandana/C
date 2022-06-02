@@ -50,3 +50,17 @@ int main() {
     printf("Reminder = %d \n", c);
     return 0;
 }
+
+
+
+// If Control Statement
+#include <stdio.h>
+int main() {
+    int number;
+    printf("Enter a number : ");
+    scanf("%d", &number);
+    if(number%2 == 0){
+        printf("Your number is %d and it is an even number", number);
+    }
+    return 0;
+}
